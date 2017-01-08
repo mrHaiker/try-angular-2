@@ -1,0 +1,1 @@
+import {Injectable} from "@angular/core";@Injectable()export class Body {  private color: string;  constructor(){    this.color = 'red';  }}
