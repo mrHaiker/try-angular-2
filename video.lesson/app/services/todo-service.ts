@@ -1,0 +1,1 @@
+export class TodoService {  private todos: string[];  constructor() {    this.todos = ['BMW', 'Mazda'];  }  getTodos() {    return this.todos;  }  addTodo(newTodo: any) {    this.todos.push(newTodo)  }  removeTodo(todo: any){    this.todos.splice(this.todos.indexOf(todo), 1)  }  resetTodos(){    this.todos.length = 0;  }}
