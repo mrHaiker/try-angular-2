@@ -1,0 +1,1 @@
+<div class="weather-component">    <h2 *ngIf="!weatherExists()">Loading...</h2>    <div class="weather" *ngIf="weatherExists()">        <h2>Current conditions in {{ weather.city }}:</h2>        {{ weather.temperature }}        <div class="wi wi-yahoo-{{ weather.code }}"></div>    </div></div>
